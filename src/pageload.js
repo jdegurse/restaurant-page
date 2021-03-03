@@ -9,6 +9,28 @@ function pageLoad() {
 
 
 
+    ////////    CREATE NAV    ////////
+    const nav = document.createElement('div');
+    nav.setAttribute('id', 'nav');
+
+    const nav_home = document.createElement('button');
+    nav_home.setAttribute('id', 'nav-home');
+    nav_home.textContent = 'Home';
+
+    const nav_menu = document.createElement('button');
+    nav_menu.setAttribute('id', 'nav-menu');
+    nav_menu.textContent = 'Menu';
+
+    const nav_contact = document.createElement('button');
+    nav_contact.setAttribute('id', 'nav-contact');
+    nav_contact.textContent = 'Contact';
+
+    nav.appendChild(nav_home);
+    nav.appendChild(nav_menu);
+    nav.appendChild(nav_contact);
+
+
+
     ////////    CREATE MAIN    ////////
     const main = document.createElement('div');
     main.setAttribute('id', 'main');
@@ -44,6 +66,7 @@ function pageLoad() {
     ////////    APPEND TO CONTENT    ////////
     const content = document.getElementById('content');
     content.appendChild(header);
+    content.appendChild(nav);
     content.appendChild(main);
     content.appendChild(footer);
 }
