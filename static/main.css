@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+h1 {
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(36, 36, 36);
+}
+
+p {
+    color: rgb(78, 31, 31);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+a {
+    color: #af221d;
+    text-decoration: none;
+}
+
+body {
+    background-color: #e2e0d4;
+}
+
+#header {
+    height: 150px;
+    width: 100%;
+    background-image: url(img/cheesecake-dark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 5px 0 black;
+}
+
+#header-title {
+    height: auto;
+    width: max-content;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#main {
+    min-height: calc(100vh - 290px);
+    margin: 50px 10%;
+}
+
+#footer {
+    margin: 10px;
+    text-align: center;
+}
