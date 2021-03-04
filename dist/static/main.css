@@ -15,6 +15,10 @@ p {
     line-height: 20px;
 }
 
+#footer p {
+    font-size: 12px;
+}
+
 a {
     color: #af221d;
     text-decoration: none;
@@ -79,11 +83,15 @@ body {
 }
 
 #main {
-    min-height: calc(100vh - 290px);
+    min-height: calc(100vh - 344px);
     margin: 50px 10%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 0 8px -2px black;
 }
 
 #footer {
-    margin: 10px;
+    height: 20px;
     text-align: center;
 }
